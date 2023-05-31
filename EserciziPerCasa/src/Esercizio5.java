@@ -18,7 +18,7 @@ public class Esercizio5 {
         System.out.println("Inserire una password: ");
         String password = in.nextLine();
 
-        String reg = "[a-z]+[A-z]+[0-9]+";
+        String reg = ".[a-z]+[A-z]+[0-9]+";
         Pattern pat = Pattern.compile(reg);
         Matcher mat = pat.matcher(password);
 

@@ -13,22 +13,21 @@ public class Esercizio1 {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Inserire una parola da cercare: ");
-        String str = in.nextLine();
+        String parolaDaCercare = in.nextLine();
 
         //String regex = "[a-zA-Z0-9]";
         String testo = "Io sono il testo in cui cercare la stringa, sono composto di un certo numero di parole e con le parole posso avere un certo numero di combinazioni";
-        String r = str;
-        String s = "[a-zA-Z0-9,]+";
+        String regex = "[a-zA-Z0-9,]+";
 
-        Pattern pattern = Pattern.compile(s);
+        Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(testo);
         int pos = 0;
 
         while(matcher.find()){
             pos++;
-            String m = matcher.group();
-            if(m.matches(r)){
-                String parola = m;
+            String parolaConfronto = matcher.group();
+            if(parolaConfronto.matches(parolaDaCercare)){
+                //String parolaTrovata = parolaConfronto;
                 System.out.println("La parola è in posizione: "+ pos);
             }
         }
