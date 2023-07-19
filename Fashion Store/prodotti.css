@@ -1,0 +1,50 @@
+.row{
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+}
+
+.title{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+#home1{
+    font-weight: 400;
+    font-style: italic;
+    font-size: x-large;
+}
+
+#title{
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carouselExampleIndicators{
+    padding-top: 3rem;
+
+}
+
+#img1{
+    height: 500px;
+}
+
+#inlineFormSelectPref{
+    margin-right: 0.5rem;;
+}
+
+
+#paginazione{
+    padding-top: 3rem;
+    padding-left: 33rem;
+    padding-bottom: 3rem;
+}
+
+.toast{
+    max-width: 200px;
+    border-radius: 8px
+}
+
+.btn-close{
+    padding-left: 18rem;
+}

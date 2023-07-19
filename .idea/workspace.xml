@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25890dc1-30a6-430a-99ef-e09b3a187c11" name="Changes" comment="gitignore1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RepoDeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EseciziPerCasa/src/main/java/Esercizio6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EserciziPerCasa/src/Esercizio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/EserciziPerCasa/src/Esercizio5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +21,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/debor/Desktop/Repo/RepoDeb&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/debor/Desktop/Repo/AcademyIETWorkSpace/Debora"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RepoDeb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RepoDeb" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -18,20 +18,20 @@ public class Esercizio5 {
         System.out.println("Inserire una password: ");
         String password = in.nextLine();
 
-        String reg = ".[a-z]+[A-z]+[0-9]+";
-        Pattern pat = Pattern.compile(reg);
-        Matcher mat = pat.matcher(password);
+        String reg = "((?=.*[0-9])(?=.*[a-zA-Z])(?=.*('!'|'@')){2,20})";
+//        Pattern pat = Pattern.compile(reg);
+//        Matcher mat = pat.matcher(password);
 
-//        if(mat.matches()){
-//            System.out.println("La password è valida");
-//        }else{
-//            System.out.println("La password non è valida");
-//        }
-
-        if(password.contains("[a-z]") && password.contains("[A-Z") && password.contains("[0-9]") ){
+        if(password.matches(reg)){
             System.out.println("La password è valida");
         }else{
-           System.out.println("La password non è valida");
+            System.out.println("La password non è valida");
         }
+
+//        if(password.contains("[a-z]") && password.contains("[A-Z") && password.contains("[0-9]") ){
+//            System.out.println("La password è valida");
+//        }else{
+//           System.out.println("La password non è valida");
+//        }
     }
 }
